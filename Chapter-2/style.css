@@ -1,0 +1,17 @@
+*{
+    /* shortcuts:- m0+p0 and enter */
+    margin: 0;      
+    padding: 0;
+}
+
+.orange{
+background: rgb(220, 148, 12);
+height: 55px;
+color: rgba(255, 255, 255, 0.882);
+}
+
+
+.green{
+ background-color: green;
+ color: whitesmoke;
+}

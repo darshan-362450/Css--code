@@ -1,0 +1,55 @@
+<!-- Create a Thin progrss bar animation for a website. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-1</title>
+    <style>
+        .progress{
+            background-color: black;
+            height: 5px;
+            animation: load 1s ease-in-out 1;
+        }
+      *{
+        margin: 0;
+        padding: 0;
+      }
+
+      header{
+        background-color: orangered;
+        height: 100px;
+      }
+
+      main{
+        background-color: purple;
+        height: 899px;
+      }
+
+      @keyframes load {
+        0%{
+            width: 0;
+        }
+        50%{
+            width: 90vw;
+        }
+
+        100%{
+            width: 100vw;
+        }
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="progress">
+
+    </div>
+    <header>
+
+    </header>
+    <main>
+
+    </main>
+</body>
+</html>

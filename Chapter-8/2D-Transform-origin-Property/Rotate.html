@@ -1,0 +1,33 @@
+<!-- Transform-Origin-Property -- Means center se Rotate hogaa.<br>
+2D transform - can change x and y axis. <br>
+3d transform - can change z axis as well. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate</title>
+    <style>
+     .container{
+        background-color: orangered;
+        height: 455px;
+     }
+     
+     .box{
+        border: 2px solid black;
+        /* transform: rotate(0.5turn); */
+        transform: rotate(0deg); 
+        /* transform: rotate(180deg); */
+        transform-origin: 0 ;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/Sunset.jpg" alt="" height="250px" width="200px">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!-- Create a same layout using flex. -->
+<!-- Create a layout of your choice using floates. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            padding: 25px;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 0 34px;
+        }
+
+        header {
+            background-color: black;
+            color: whitesmoke;
+            height: 66px;
+            width: 100vw;
+        }
+
+        .left {
+            background-color: orangered;
+            color: whitesmoke;
+            height: 100vh;
+            width: 40vw;
+
+        }
+
+        .right {
+            background-color: green;
+            color: whitesmoke;
+            height: 100vh;
+            width: 40vw;
+
+        }
+
+        .container {
+            display: flex;
+            /* justify-content: center; */
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum fugit expedita qui
+            deleniti, enim obcaecati at unde suscipit fugiat, repellendus hic maxime natus necessitatibus nihil minima
+            perspiciatis voluptate. Autem ipsum architecto eaque necessitatibus est.</div>
+        <div class="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus rerum numquam dolorem
+            laborum assumenda nemo impedit nihil laudantium sint, velit commodi similique doloribus delectus quasi
+            excepturi quo architecto consequuntur voluptas provident magnam necessitatibus cum?</div>
+    </div>
+
+
+</body>
+
+</html>

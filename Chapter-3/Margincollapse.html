@@ -1,0 +1,37 @@
+<!-- Margin Collpase meaning :-  by default bigger margin select keli jaiil. -->
+ <!-- small margin collapse ho jati he. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .box1{
+        background-color: orange;   
+        margin: 30px;
+        height: 70px;
+      }
+      .box2{
+        background-color: green;
+        margin: -20px;
+        height: 60px;
+      }
+    </style>
+</head>
+<body>
+    <div class="box1">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt a porro eligendi perspiciatis consequuntur voluptatibus sed beatae necessitatibus est, quasi, velit consequatur facilis eos ipsa quaerat ratione laboriosam fugit rerum! Nesciunt laborum esse obcaecati dolore, magni aut, rerum hic commodi maxime nisi debitis assumenda. Cupiditate magni tempore nam quia molestias quis et illo blanditiis est iusto culpa soluta sequi minima veniam sit doloribus id distinctio nemo incidunt sint, excepturi numquam perferendis odio dolorem! Impedit recusandae, maxime earum voluptatibus quod enim id quaerat adipisci beatae explicabo? Vero tempore rem, sapiente sed debitis molestias culpa quisquam possimus rerum animi at dolor!</p> 
+    </div>
+    <hr>
+    <!-- by default bigger margin select keli jaiil. -->
+    <div class="box2">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab placeat consectetur laudantium inventore delectus error cumque, quam ducimus soluta? Exercitationem, nulla. Animi, suscipit! Porro ipsum placeat dolore voluptate nam dignissimos, quod esse nesciunt enim dolorem reiciendis sunt explicabo labore, ipsa quas unde quia vel omnis. Iusto ducimus ratione suscipit reiciendis quaerat distinctio et blanditiis eaque pariatur nesciunt quod sint doloribus mollitia iure quae ex omnis sed eum aspernatur, odio porro! Quam reiciendis quisquam corrupti. Fuga, eum nam, officia ducimus quidem quos reprehenderit ut qui eveniet amet incidunt aliquid quibusdam! Ipsum dolores consequatur dolorem saepe nulla minus est quae debitis.</p> 
+    </div>
+</body>
+</html>

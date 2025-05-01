@@ -1,0 +1,92 @@
+CSS Notes
+--------------------------------------------------------------------------
+Id create :- div#____
+class create :-div.____ / section.___ 
+
+CSS SELECTORS
+
+1) Element Selector
+
+ex:-<div>
+  <h1>This is my CSS SELECTORS Page</h1>
+</div>
+<style>
+h1{
+            background-color: orange;
+            color: white;
+        }
+
+</style>
+-----------------------------------------------------------------------------
+
+2)Id Selector ----shortcut ( div#first )
+ 
+ex:- <div>
+<div id="first"> Hii I am from INDIA. </div>
+</div>
+<style>
+  #first{
+            background-color: purple;
+            color: black;
+        }
+         
+</style>
+-----------------------------------------------------------------------------
+
+3) Class Selectors ----shortcut (section.aqua)
+ex:-<div> 
+<section class="aqua">Hii I am from MAHARASHTRA.</section> 
+</div>
+
+<style>
+ .aqua{
+            background-color: red;
+            color: white;
+        }
+</style>
+
+----------------------------------------------------------------------------------
+
+4) Universal Selector -- universal selectors can be used to select all the elements.
+ex.  <div>
+        <h1>This is my CSS SELECTORS Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Ducimus dolore consequatur itaque veritatis sint nihil atque beatae quasi, officiis voluptatibus consectetur 
+             tenetur esse, ipsum minus repellendus unde.
+             Hic quibusdam doloremque placeat saepe consequatur dolorum.</p>
+             
+             <div id="first">
+                Hii I am from INDIA.
+             </div>
+
+             <section class="aqua">Hii I am from MAHARASHTRA.</section>
+    </div>
+
+<style>
+  *{
+            background-color: black;
+        }
+</style>
+-----------------------------------------------------------------------------------------
+
+Day-02----01:35:18 
+Day-03----01:40:09
+Day-03----01:46:06
+Day-04----02:12:12
+Day-05----02:19:49
+Day-06----03:05:11
+Day-07----03:20:15
+Day-08----03:45:30
+Day-09----04:08:01
+Day-10----04:09:19
+Day-11----04:19:00
+Day-12----04:35:00
+Day-13----04:55:00
+Day-14----05:07:00
+Day-15----05:19:00
+Day-16----06:34:00
+Day-17----07:09:00
+Day-18----07:38:00
+End
+
+21 Jan 2021
